@@ -1,0 +1,15 @@
+.DS_Store
+
+# only track the website (etc/public_html); ignore cPanel account plumbing
+/etc/ssl/
+/etc/mail/
+/etc/logs/
+/etc/access-logs/
+/etc/repositories/
+/etc/tmp/
+/etc/lscache/
+/etc/public_ftp/
+/etc/www/
+
+# oversized video (exceeds GitHub 100MB file limit)
+etc/public_html/img/sports/IMG_4074.MOV
