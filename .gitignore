@@ -12,4 +12,4 @@
 /etc/www/
 
 # oversized video (exceeds GitHub 100MB file limit)
-public_html/img/sports/IMG_4074.MOV
+img/sports/IMG_4074.MOV
