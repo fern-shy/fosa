@@ -104,3 +104,16 @@ h3 { font-size:1.25rem; font-weight:normal; }
     padding: 0.2em 0.4em;
   }
 }
+
+.contact-info { text-align: center; }
+.contact-img {
+  display: block;
+  margin: 1.5rem auto;   /* centers the image */
+  width: 100%;
+  max-width: 400px;      /* scaled down; tweak this number to taste */
+  height: auto;
+}
+.contact-img--tight {
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
