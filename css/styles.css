@@ -52,9 +52,30 @@ img, video, iframe { max-width:100%; height:auto; display:block; }
 }
 .nav-card {
   position: relative;
-  width: 40vw;
+  width: 28vw;
   height: 40vh;
   overflow: hidden;
+}
+.nav-card--logo {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.nav-card--logo .nav-card__img {
+  object-fit: contain;
+  height: auto;
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+.nav-card--logo .nav-card__label {
+  position: static;
+  color: #333;
+  text-shadow: none;
+  padding: 0.5rem 0.75rem 1rem;
+  font-size: 1.25rem;
+}
+.nav-card--logo:hover .nav-card__img {
+  filter: none;
 }
 .nav-card__img { width: 100%; height: 100%; object-fit: cover; transition: filter .3s; }
 .nav-card:hover .nav-card__img { filter: brightness(.7); }
